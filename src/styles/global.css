@@ -1,0 +1,21 @@
+.page{
+    margin-top: 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.skilltags{
+ display: flex;
+ flex-wrap: wrap;
+ list-style-type: none;
+}
+
+.tag{
+    border-radius: 20px;
+    padding: 5px 12px 5px 12px;
+    font-weight: 600;
+    font-size: small;
+    color: white;
+    background-color: rgb(13, 127, 72);
+    margin-right: 10px;
+}

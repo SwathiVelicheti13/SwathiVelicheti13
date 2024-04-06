@@ -1,0 +1,7 @@
+{
+    "skills": {
+        "Cloud": ["AWS", "GCP"],
+        "Languages": ["python", "javascript", "java"],
+        "Frameworks": ["React"]
+    }
+}

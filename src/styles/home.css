@@ -1,0 +1,22 @@
+.aboutme{
+background-color: rgba(204, 245, 201, 0.5);
+border-radius: 15px;
+width: 50%;
+margin: 20px;
+}
+
+.skills{
+    background-color: rgba(201, 232, 198, 0.5);
+    border-radius: 15px;
+    width: 50%;
+    margin: 20px;
+    text-align: left;
+    padding: 20px;
+    
+}
+
+.container {
+    display: flex; 
+    justify-content: space-between; 
+    width: 100%; 
+}
