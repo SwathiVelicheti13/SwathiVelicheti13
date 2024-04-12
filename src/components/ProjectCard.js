@@ -3,14 +3,16 @@ import '../styles/projectCard.css'
 const ProjectCard = ({project}) => {
     
     return (
-        <div>
-            <div className="card">
+        <div class="card">
+            <div class="thumbnail-container">
                 <img src={project.thumbnail} alt="Thumbnail" className="thumbnail" />
-                <div className="details">
-                    <h3 className="project-name">{project.project_name}</h3>
-                    <h4 className="heading">{project.heading}</h4>
-                    <p className="tagline">{project.tagline}</p>
-                    <p className="startDate">{project.startDate}</p>
+            </div>
+            <div class="caption">
+                <div class="title">{project.project_name}</div>
+                <div class="details">
+                <div class="heading">{project.heading}</div>
+                <div class="tagline">{project.tagline}</div>
+                <div class="startDate">{project.startDate}</div>
                 </div>
             </div>
         </div>

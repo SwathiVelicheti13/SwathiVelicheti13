@@ -28,9 +28,9 @@ const AboutMe = () => {
                     <br />
 
                 </div>
-            
+                <br/>
 
-                <Link to={window.location.origin + "/Users/shashankvinnakota/Documents/SwathiVelicheti13/src/assets/Swathi_Velicheti_Resume_24.pdf"} target="_blank">
+                <Link to={window.location.origin + "https://raw.githubusercontent.com/swathivelicheti13/swathivelicheti13/main/src/assets/Swathi_Velicheti_Resume_24.pdf"} target="_blank">
 
                     <div className="button" style={{ float: "None" }}>
 

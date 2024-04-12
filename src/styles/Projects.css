@@ -1,0 +1,28 @@
+
+.project-page {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items starting from the top */
+    margin-top: 100px; /* Adjust the margin to push content below the navbar */
+    margin-left: 80px;
+  }
+  
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Align items starting from the left */
+    gap: 30px; /* Adjust the gap between columns */
+  }
+  
+  .column {
+    flex: 1 0 calc(33.33% - 20px); /* Adjust the width of each column */
+  }
+  
+  /* Adjust styles for smaller screens */
+  @media only screen and (max-width: 768px) {
+    .column {
+      flex: 1 0 calc(50% - 10px); /* For smaller screens, display 2 columns */
+    }
+  }
+  

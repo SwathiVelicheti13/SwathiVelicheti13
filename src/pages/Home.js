@@ -9,7 +9,7 @@ import Name from '../components/Name';
 const Home = () => {
 
     return (
-        <div className="page">
+        <div className="home-page">
             <Name></Name>
             <div className='container'>
             <AboutMe></AboutMe>
