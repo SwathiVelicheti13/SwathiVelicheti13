@@ -1,0 +1,30 @@
+.name-card {
+    width: 700px; /* Adjust width as needed */
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px; /* Rounded corners */
+    margin-bottom: 20px; /* Add space between name card and other sections */
+  }
+  
+  .name-card h1 {
+    margin-top: 0;
+    font-size: 24px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Adjust margin as needed */
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
