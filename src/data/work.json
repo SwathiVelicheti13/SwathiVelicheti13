@@ -1,0 +1,110 @@
+{
+    "works": [
+        {
+            "_id": 0,
+            "company_name": "Outcome Logix",
+            "role_name": "Software Engineer Intern",
+            "start_date": "June 2022",
+            "end_date": "Aug 2022",
+            "achievements": [
+                "Spearheaded the revitalization of the company portal using Java Media Frameworks, achieving KPI-driven increases in automation, productivity, and system flexibility; enhanced video data ingestion and streaming capabilities.",
+                "Pioneered the implementation of advanced machine learning and deep learning techniques, specifically leveraging Convolutional Neural Networks (CNN) and TensorFlow Library, to transform the landscape of video data classification, including plagiarism detection.",
+                "Surmounted challenging manual tasks through automated video data analysis and dataset preprocessing, employing Java and machine learning algorithms to significantly enhance data quality and analytical capabilities.",
+                "Engaged in the collaborative design and Agile development of a comprehensive software testing framework, elevating the existing system’s performance by 25%; contributed to QA (Quality Assurance) and software reliability.",
+                "Achieved exceptional and quantifiable outcomes in video analytics by deploying cutting-edge machine learning models, optimizing video frame analysis for improved operational efficiencies."
+            ],
+            "languages": [
+                "Python"
+            ],
+            "tools": [
+              
+            ],
+            "libraries": [
+                "Machine Learning Algorithms",
+                "Convolutional Neural Networks",
+                "Tensorflow",
+                "OpenCv",
+                "Agile"
+            ],
+            "links": [
+                {
+                    "icon": "university",
+                    "linkname": "company website",
+                    "website_link": "https://outcomelogix.com/",
+                    "color": "#868686"
+                }
+            ]
+
+        },
+
+        {
+            "_id": 1,
+            "company_name": "Infosys Ltd",
+            "role_name": "Full Stack Developer",
+            "start_date": "Aug 2020",
+            "end_date": "Jan 2022",
+            "achievements": [
+                "Engineered a customer-centric web portal leveraging React.js and Python, resulting in a 42% uptick in user engagement and marked improvements in website performance; exercised full-stack development capabilities in Python, Django REST Framework, and SQL.",
+                "Developed data-rich, interactive dashboards utilizing React and Django REST Framework, facilitating real-time analytics and decision-making.",
+                "Fortified web application security by implementing robust User Authentication, Authorization Encryption, and secure RESTful API endpoints, ensuring the stringent protection of sensitive user data.",
+                "Achieved key KPIs of a 15% team productivity increase and a 90% project success rate through the disciplined implementation of Agile methodologies, leading to consistent, on-time project deliveries.",
+                "Navigated complex challenges in backend-frontend integration and deployment automation while optimizing component performance and secure data communication, employing Python, React.js,SQL Databases."
+            ],
+            "languages": [
+                "Python","SQL","Javscript"
+            ],
+            "tools": [
+              
+            ],
+            "libraries": [
+                "Django Framework",
+                "MYSQL",
+                "Agile"
+            ],
+            "links": [
+                {
+                    "icon": "university",
+                    "linkname": "company website",
+                    "website_link": "https://www.infosys.com/",
+                    "color": "#868686"
+                }
+            ]
+        },
+
+        {
+            "_id": 2,
+            "company_name": "Infosys Ltd",
+            "role_name": "BackEndDeveloper",
+            "start_date": "Feb 2017",
+            "end_date": "July 2020",
+            "achievements": [
+                "Engineered and deployed Python modules to extract and load asset data from MySQL databases, delivering a KPI-centric 50% reduction in data processing time and catalyzing effective inter-team collaboration.",
+                "Boosted backend efficiency through Python and Django REST Framework, managing various application-level tasks.",
+                "Achieved a 40% improvement in MySQL query performance via meticulous optimization with Django REST Framework.",
+                "Strengthened code reliability by establishing a multi-layered testing framework, including unit, acceptance, and integration tests.",
+                "Integrated Git and RESTful APIs into the development workflow, fortifying code management and API operations.",
+                "Streamlined CI/CD pipelines through administering critical support for production tools, libraries, and global configurations."
+            ],
+            "languages": [
+                "Python","SQL"
+            ],
+            "tools": [
+              
+            ],
+            "libraries": [
+                "Django Framework",
+                "MYSQL",
+                "Agile"
+            ],
+            "links": [
+                {
+                    "icon": "university",
+                    "linkname": "company website",
+                    "website_link": "https://www.infosys.com/",
+                    "color": "#868686"
+                }
+            ]
+        }
+    ]
+}
+    
