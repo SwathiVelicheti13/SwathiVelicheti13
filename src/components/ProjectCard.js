@@ -1,22 +1,30 @@
 import React from 'react';
-import '../styles/projectCard.css'
-const ProjectCard = ({project}) => {
-    
-    return (
-        <div class="card">
-            <div class="thumbnail-container">
-                <img src={project.thumbnail} alt="Thumbnail" className="thumbnail" />
-            </div>
-            <div class="caption">
-                <div class="title">{project.project_name}</div>
-                <div class="details">
-                <div class="heading">{project.heading}</div>
-                <div class="tagline">{project.tagline}</div>
-                <div class="startDate">{project.startDate}</div>
-                </div>
-            </div>
-        </div>
-    )
-}
+import { useNavigate } from 'react-router-dom';
+import '../styles/projectCard.css';
 
-export default ProjectCard
+const ProjectCard = ({ project }) => {
+  const navigate = useNavigate(); // Hook to navigate to other routes
+
+  const handleCardClick = () => {
+    // Redirect to the detail page using the project ID
+    navigate(`/project/${project.id}`);
+  };
+
+  return (
+    <div className="card" onClick={handleCardClick}>
+      <div className="thumbnail-container">
+        <img src={project.thumbnail} alt="Thumbnail" className="thumbnail" />
+      </div>
+      <div className="caption">
+        <div className="title">{project.project_name}</div>
+        <div className="details">
+          <div className="heading">{project.heading}</div>
+          <div className="tagline">{project.tagline}</div>
+          <div className="startDate">{project.startDate}</div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default ProjectCard;

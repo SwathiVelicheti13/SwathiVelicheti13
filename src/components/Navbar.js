@@ -27,8 +27,8 @@ function Navbar() {
       <NavLink to="/projects" className="nav-item" activeClassName="active">
         Projects
       </NavLink>
-      <NavLink to="/work-experience" className="nav-item" activeClassName="active">
-        Work Experience
+      <NavLink to="/works" className="nav-item" activeClassName="active">
+        Work-Experience
       </NavLink>
     </div>
   </nav>

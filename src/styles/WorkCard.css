@@ -1,0 +1,121 @@
+/* Default styling for larger screens */
+.work-card {
+  width: 1500px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 15px;
+  background: #f9f9f9;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+/* Default Flexbox alignment */
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Left side content (role and company info) */
+.left-side {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Right side content (duration, tags, and icon) */
+.right-side {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px; /* Space between elements */
+}
+
+/* Company logo styling */
+.company-logo {
+  max-width: 50px;
+  height: auto;
+  margin-top: 5px;
+}
+
+/* Tag styling */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Spacing between tags */
+}
+
+/* Tag design */
+.tag {
+  display: inline-block;
+  background-color: #587ba0;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.role {
+  white-space: nowrap; /* Prevents text from wrapping */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Adds '...' if the text overflows */
+}
+
+/* Responsive design for medium screens (e.g., iPad) */
+@media (max-width: 992px) {
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:5px;
+   /* Add spacing between elements */
+  }
+
+  /* Align left-side content horizontally */
+  .left-side {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  /* Align right-side content horizontally */
+  .right-side {
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+
+  /* Ensure tags align horizontally */
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px; /* Spacing between tags */
+  }
+}
+
+/* Further adjustments for smaller screens */
+@media (max-width: 576px) {
+  .card-header {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: flex-start; /* Align elements to the start */
+    gap: 10px; /* Space between items */
+  }
+
+  /* Ensure left-side data and right-side data are stacked */
+  .left-side {
+    display: flex;
+    flex-direction: column; /* Stack vertically */
+    align-items: flex-start; 
+    text-align:left/* Align to the start */
+  }
+
+  .right-side {
+    display: flex;
+    flex-direction: column; /* Stack vertically */
+    align-items: flex-start; /* Align to the start */
+    gap: 10px; /* Ensure spacing between items */
+  }
+
+  .company-logo {
+    max-width: 30px; /* Smaller logo size */
+  }
+}

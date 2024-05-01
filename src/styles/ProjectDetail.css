@@ -1,0 +1,78 @@
+.project-detail {
+    margin-top:100px;
+    display: flex; /* Flex layout for the detail view */
+    justify-content: center; /* Center the card */
+    align-items: center; /* Align content to the center */
+    padding: 20px; /* Padding for the container */
+    background: rgb(225, 222, 222); /* Light background color */
+    position: relative;
+  }
+  
+  .project-card {
+    width: 100%; /* Full-width */
+    max-width: 1000px; /* Maximum width for the card */
+    padding: 20px; /* Padding inside the card */
+    background: rgb(198, 198, 220); /* White background */
+    border-radius: 10px; /* Lightly rounded corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+  }
+
+
+  .project-header {
+    display: flex; /* Use Flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: flex-start; /* Align to the top */
+  }
+  
+  .project-name {
+    font-size: 1.5em; /* Larger font size for emphasis */
+    text-align: center; /* Ensure text is centered horizontally */
+  }
+  
+  .project-content {
+    text-align: left; /* Left-align content */
+  }
+    
+  .project-features {
+    margin-bottom: 10px; /* Space below features */
+    margin-right:30px
+  }
+  
+  .project-tags {
+    margin-bottom: 20px; /* Space below tags */
+  }
+  
+  .tags {
+    display: flex;
+    flex-wrap: wrap; /* Allow tags to wrap */
+    gap: 10px; /* Space between tags */
+  }
+  
+  .tag {
+    padding: 5px 10px; /* Padding for tags */
+    background: #587ba0; /* Light gray background */
+    border-radius: 5px; /* Slightly rounded corners */
+  }
+  
+  .github-link {
+    display: flex; /* Align icon and text */
+    align-items: center; /* Align items vertically */
+    text-decoration: none; /* No underline */
+    color: #333; /* Default text color */
+  }
+  
+  .github-link:hover {
+    color: #000; /* Darken on hover */
+  }
+  
+  /* Styling for the new image with sharp corners */
+  .project-image {
+    margin-top: 20px; /* Space above the image */
+  }
+  
+  .square-image {
+    max-width: 100%; /* Responsive image */
+    border: 1px solid #ddd; /* Border for the image */
+    border-radius: 0; /* Sharp corners */
+  }
+  
