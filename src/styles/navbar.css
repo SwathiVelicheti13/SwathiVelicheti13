@@ -1,91 +1,89 @@
-/* Default styles */
 .navbar {
-  background-color: #e7e5ea;
-  padding: 5px;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  width: 100%;
-  position: fixed;
+  background: url('https://source.unsplash.com/random/1600x900') no-repeat center center; /* Background image */
+  background-size: cover; /* Ensure the image covers the navbar */
+  padding: 10px; /* Padding within the navbar */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  width: calc(100% - 400px); /* Full-width minus the 200px margins on both sides */
+  position: fixed; /* Fix at the top */
   top: 0;
-  z-index: 1000;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  z-index: 1000; /* High z-index to stay above other content */
+  display: flex; /* Flexbox layout */
+  justify-content: space-between; /* Space between left and right sides */
+  align-items: center; /* Vertical alignment */
+  margin: 0 auto; /* Center the navbar with margins */
 }
 
 .navbar-left {
-  display: flex;
-  align-items: center;
+  display: flex; /* Flexbox layout */
+  align-items: center; /* Vertical alignment */
+  padding-left: 20px; /* Padding on the left side */
 }
 
 .navbar-logo {
-  font-size: 1.5rem;
-  color: #7f51ad;
-  margin-right: 10px;
-  margin-left: 140px;
+  font-size: 1.5rem; /* Logo font size */
+  color: white; /* Color that contrasts with the background */
+  margin-right: 10px; /* Space between logo and other elements */
 }
 
 .navbar-name {
-  font-size: 1.2rem;
+  font-size: 1.2rem; /* Font size for the navbar name */
   font-weight: bold;
-  color: #7f51ad;
+  color: white; /* Color that contrasts with the background */
 }
 
 .navbar-right {
-  display: flex;
+  display: flex; /* Flexbox layout */
+  align-items: center; /* Vertical alignment */
 }
 
 .nav-item {
-  color: #0b0b0b;
+  color: white; /* Default text color */
   text-decoration: none;
-  padding: 15px;
-  border-radius: 50px;
-  margin-right: 20px;
+  padding: 15px; /* Padding for clickability */
+  border-radius: 50px; /* Rounded corners */
   transition: background-color 0.3s ease;
 }
 
 .nav-item:hover,
 .nav-item.active {
-  background-color: rgba(255, 255, 255, 0.2);
-  border: 1px solid #7f51ad;
-  font-weight: 500;
+  background-color: rgba(255, 255, 255, 0.2); /* Hover effect */
+  border: 1px solid white; /* Border color for hover and active states */
 }
 
 .nav-item.active {
-  color: #7f51ad;
+  color: white; /* Active item color */
 }
 
-/* Media queries */
+/* Media Queries */
 @media only screen and (max-width: 1200px) {
-  .navbar-logo {
-    margin-left: 100px;
-  }
-}
-
-@media only screen and (max-width: 992px) {
-  .navbar-logo {
-    margin-left: 20px;
+  /* Adjust styles for large laptops */
+  .navbar {
+    width: calc(100% - 200px); /* Reduce the margin on smaller screens */
   }
 
-  .navbar-name {
-    display: none; /* Hide the name on smaller screens */
+  .navbar-left {
+    padding-left: 50px; /* Adjust padding on the left */
   }
 
-  .nav-item {
-    padding: 10px; /* Reduce padding for smaller screens */
+  .navbar-right {
+    padding-right: 50px; /* Adjust padding on the right */
   }
 }
 
 @media only screen and (max-width: 768px) {
+  /* Styles for smaller displays and tablets */
   .navbar {
-    padding: 5px 10px; /* Reduce padding for smaller screens */
+    width: 100%; /* Full-width for smaller screens */
+    padding: 10px; /* Padding within the navbar */
+    border-radius: 10px; /* Slightly smaller rounded corners */
   }
 
-  .navbar-logo {
-    font-size: 1.2rem; /* Reduce font size for smaller screens */
+  .navbar-left {
+    padding-left: 20px; /* Adjust padding on the left */
   }
 
-  .nav-item {
-    margin-right: 10px; /* Reduce margin for smaller screens */
+  .navbar-right {
+    padding-right: 20px; /* Adjust padding on the right */
   }
 }

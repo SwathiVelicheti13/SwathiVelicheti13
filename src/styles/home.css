@@ -3,24 +3,18 @@
     margin-top: 100px;
 }
 
-.name-card {
-    width: 70%;
-    border-radius: 15px;
-    padding: 20px;
-    box-sizing: border-box;
-    margin: 20px;
-    margin-left: 420px;
+.reveal-container{
+    position:relative
 }
-
 .aboutme {
-    background-color: rgba(204, 204, 193, 0.954);
+    background-color: rgb(207, 207, 226);
     border-radius: 15px;
     width: 50%;
     margin: 20px;
 }
 
 .skills {
-    background-color: rgba(204, 204, 193, 0.954);
+    background-color:rgb(207, 207, 226);
     border-radius: 15px;
     width: 50%;
     margin: 20px;
@@ -45,9 +39,6 @@
 
 @media screen and (max-width: 768px) {
     /* Styles for small displays */
-    .name-card {
-        margin-left: 100px; /* Adjust as needed */
-    }
     .container {
         flex-direction: column; /* Stack items vertically */
     }
@@ -55,10 +46,6 @@
 
 @media screen and (max-width: 480px) {
     /* Styles for mobiles */
-    .name-card {
-        width: 90%; /* Adjust as needed */
-        margin-left: 20px; /* Adjust as needed */
-    }
     .aboutme, .skills {
         width: 90%; /* Adjust as needed */
     }

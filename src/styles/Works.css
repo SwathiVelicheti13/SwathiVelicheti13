@@ -1,5 +1,7 @@
 .work-page {
-    padding-top: 60px; /* Default padding to avoid navbar overlap */
+    padding-top: 80px;
+    padding-right:140px;
+    padding-left:140px; /* Default padding to avoid navbar overlap */
     display: flex;
     flex-direction: column;
   }

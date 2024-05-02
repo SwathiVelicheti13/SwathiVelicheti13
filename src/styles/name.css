@@ -1,30 +1,85 @@
-.name-card {
-    background-color: rgba(204, 204, 193, 0.954);
-    width: 700px; /* Adjust width as needed */
-    padding: 20px;
-    border-radius: 10px; /* Rounded corners */
-    margin-bottom: 20px; /* Add space between name card and other sections */
+/* Default styles */
+.reveal-container {
+  text-align: center; /* Center the text */
+  padding: 10px; /* Padding for spacing */
+}
+
+.reveal-text {
+  font-size: 2.0em; /* Larger font size */
+  opacity: 0; /* Start with invisible text */
+  animation: revealAnimation 2s forwards; /* Define animation */
+  text-emphasis-color:red;
+}
+
+/* Keyframes for the animation */
+@keyframes revealAnimation {
+  0% {
+    opacity: 0; /* Invisible at the start */
+    transform: translateX(-100%); /* Start from the left */
   }
-  
-  .name-card h1 {
-    margin-top: 0;
-    font-size: 24px;
+  100% {
+    opacity: 1; /* Fully visible at the end */
+    transform: translateX(0); /* Normal position */
   }
-  
-  .social-icons {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px; /* Adjust margin as needed */
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 1200px) {
+  /* Adjust styles for large laptops */
+  .reveal-container {
+    padding: 15px; /* Reduced padding for smaller screens */
+    font-size: 1.8em; /* Adjust font size */
   }
-  
-  .social-icons a {
-    display: inline-block;
-    margin: 0 10px;
+}
+
+@media screen and (max-width: 768px) {
+  /* Styles for tablets and smaller displays */
+  .reveal-container {
+    padding: 10px; /* Further reduced padding for smaller screens */
+    font-size: 1.6em; /* Smaller font size for tablets */
   }
-  
-  .social-icons img {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
+}
+
+@media screen and (max-width: 480px) {
+  /* Styles for mobile devices */
+  .reveal-container {
+    padding: 8px; /* Reduced padding for mobiles */
+    font-size: 1.4em; /* Smaller font size for mobiles */
+    margin: 10px auto; /* Adjusted margin */
   }
-  
+
+  .reveal-text {
+    animation: revealAnimation 1.5s forwards; /* Faster animation for mobiles */
+  }
+}
+
+
+
+
+
+
+/* .name-card{
+  position: relative;
+}
+
+.name {
+  cursor: pointer; 
+  font-size: 2em;
+  color: #333; 
+  transition: color 0.3s ease;
+}
+
+.role {
+  opacity: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transition: opacity 0.3s ease;
+}
+
+.name:hover {
+  color: #7f51ad; 
+}
+
+.name:hover + .role {
+  opacity: 1;  */
