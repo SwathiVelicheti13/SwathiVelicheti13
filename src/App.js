@@ -7,18 +7,25 @@ import Home from './pages/Home.js';
 import Projects from './pages/Projects.js';
 import Works from './pages/Works.js';
 import ProjectDetail from './pages/ProjectDetail';
+import '../src/styles/global.css';
 
 function App() {
   return (
     <div className="App">
       <Router>
-      <Navbar></Navbar>
-      <Routes>
-      <Route path="/" Component={Home}></Route>
-      <Route path="/projects" Component={Projects}></Route>
-      <Route path="/works" Component={Works}></Route>
-      <Route path="/project/:id" element={<ProjectDetail />} />
-      </Routes>
+      <div className="app-container">
+        <div className="hero">
+          <Navbar />
+        </div>
+      <div className="content">
+        <Routes>
+        <Route path="/" Component={Home}></Route>
+        <Route path="/projects" Component={Projects}></Route>
+        <Route path="/works" Component={Works}></Route>
+        <Route path="/project/:id" element={<ProjectDetail />} />
+        </Routes>
+      </div>
+      </div>
       </Router>
     </div>
   );

@@ -1,11 +1,9 @@
 import React from 'react';
 import AboutMe from '../components/AboutMe';
 import Skills from '../components/Skills';
-import '../styles/global.css'
-import '../styles/home.css'
-import homedata from '../data/home.json'
+import '../styles/global.css';
+import '../styles/home.css';
 import Name from '../components/Name';
-
 const Home = () => {
 
     return (
@@ -13,7 +11,7 @@ const Home = () => {
             <Name></Name>
             <div className='container'>
             <AboutMe></AboutMe>
-            <Skills skilltags={homedata.skills}></Skills>
+            <Skills></Skills>
             </div>
         
         </div>

@@ -1,6 +1,21 @@
 body{
     background-color:rgb(225, 222, 222);
 }
+
+
+.app-container {
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+  }
+  
+.hero {
+    position: relative;
+    height: 200px; /* This defines the height of the hero section */
+    background-image: url('/src/assets/background_image.jpg'); /* Hero image */
+    background-size: cover;
+    background-position: center;
+}
 .page{
     margin-top: 20px;
     margin-right: 10%;
@@ -24,3 +39,15 @@ body{
     margin-right: 10px;
 }
 
+
+.content {
+    margin-top: 5px; /* Start content below the hero section */
+    /* padding: 20px; Optional padding */
+    overflow-y:auto; /* Allow vertical scrolling */
+    height:calc(100vh - 200px);
+    flex: 1; /* Ensure content area takes the remaining space */
+  }
+
+
+
+  

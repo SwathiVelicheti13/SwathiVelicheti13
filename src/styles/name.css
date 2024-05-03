@@ -1,17 +1,51 @@
-/* Default styles */
-.reveal-container {
-  text-align: center; /* Center the text */
+.name-container {
+  display: flex; /* Horizontal layout */
+  justify-content: space-between; /* Icons on the right */
+  align-items: center; /* Align vertically */
   padding: 10px; /* Padding for spacing */
+  margin-left:520px
 }
 
-.reveal-text {
-  font-size: 2.0em; /* Larger font size */
-  opacity: 0; /* Start with invisible text */
-  animation: revealAnimation 2s forwards; /* Define animation */
-  text-emphasis-color:red;
+.name-text {
+  display: flex; /* Horizontal layout for name and role */
+  flex-direction: column; /* Vertical stacking of name and role */
+  align-items: flex-start; /* Align to the left */
 }
 
-/* Keyframes for the animation */
+.name-title {
+  font-family: 'Roboto Black', sans-serif; /* Bold sans-serif for the name */
+  font-size: 2.5em; /* Larger font size for the name */
+  font-weight: 700; /* Bold weight */
+  color: #000; /* Dark color for emphasis */
+}
+
+.role-text {
+  font-family: 'Open Sans Light', sans-serif; /* Lighter sans-serif for the role */
+  font-size: 1.5em; /* Smaller font size for the role */
+  font-weight: 300; /* Light weight */
+  color: #666; /* Gray for contrast */
+  margin-top: 10px; /* Margin to separate role from the name */
+  margin-left:10px;
+}
+
+.social-links {
+  display: flex; /* Horizontal layout for icons */
+  gap: 10px; /* Space between icons */
+  margin-right:520px;
+}
+
+.social-links a {
+  text-decoration: none; /* No underline */
+  transition: transform 0.3s, opacity 0.3s; /* Transition effects */
+}
+
+.social-links a:hover {
+  transform: scale(1.2); /* Scale on hover */
+  opacity: 0.7; /* Transparency on hover */
+}
+
+
+/* Keyframes for reveal animation */
 @keyframes revealAnimation {
   0% {
     opacity: 0; /* Invisible at the start */
@@ -19,39 +53,25 @@
   }
   100% {
     opacity: 1; /* Fully visible at the end */
-    transform: translateX(0); /* Normal position */
+    transform: translateX(0); /* Return to normal position */
   }
 }
 
 /* Media Queries for Responsive Design */
-@media screen and (max-width: 1200px) {
-  /* Adjust styles for large laptops */
-  .reveal-container {
-    padding: 15px; /* Reduced padding for smaller screens */
-    font-size: 1.8em; /* Adjust font size */
-  }
-}
-
 @media screen and (max-width: 768px) {
-  /* Styles for tablets and smaller displays */
-  .reveal-container {
-    padding: 10px; /* Further reduced padding for smaller screens */
-    font-size: 1.6em; /* Smaller font size for tablets */
+  .name-container {
+    flex-direction: column; /* Vertical layout for smaller screens */
+    align-items: flex-start; /* Align to the left */
+  }
+
+  .social-links {
+    justify-content: center; /* Center the icons for smaller screens */
   }
 }
 
-@media screen and (max-width: 480px) {
-  /* Styles for mobile devices */
-  .reveal-container {
-    padding: 8px; /* Reduced padding for mobiles */
-    font-size: 1.4em; /* Smaller font size for mobiles */
-    margin: 10px auto; /* Adjusted margin */
-  }
 
-  .reveal-text {
-    animation: revealAnimation 1.5s forwards; /* Faster animation for mobiles */
-  }
-}
+
+
 
 
 

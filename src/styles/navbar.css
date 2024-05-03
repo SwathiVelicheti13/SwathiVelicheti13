@@ -1,89 +1,101 @@
+
 .navbar {
-  background: url('https://source.unsplash.com/random/1600x900') no-repeat center center; /* Background image */
-  background-size: cover; /* Ensure the image covers the navbar */
-  padding: 10px; /* Padding within the navbar */
-  border-radius: 15px; /* Rounded corners */
+  background-color: #e7e5ea; /* Navbar background color */
+  padding: 7px; /* Padding within the navbar */
+  border-radius: 20px; /* Rounded corners for the navbar */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Shadow for depth */
-  width: calc(100% - 400px); /* Full-width minus the 200px margins on both sides */
-  position: fixed; /* Fix at the top */
-  top: 0;
+  position: fixed; /* Fix the navbar at the top */
+  top:60px; /* Align at the top */
+  left:390px;
   z-index: 1000; /* High z-index to stay above other content */
+  width: calc(100% - 800px); /* Width with margins considered */
+  margin: 0 auto; /* Center the navbar */
   display: flex; /* Flexbox layout */
-  justify-content: space-between; /* Space between left and right sides */
-  align-items: center; /* Vertical alignment */
-  margin: 0 auto; /* Center the navbar with margins */
-}
+  justify-content: space-between; /* Space between left and right sections */
+  align-items: center; /* Align content vertically */
+
+} 
+
+
 
 .navbar-left {
   display: flex; /* Flexbox layout */
-  align-items: center; /* Vertical alignment */
-  padding-left: 20px; /* Padding on the left side */
+  align-items: center; /* Align content vertically */
+  padding-left: 60px; /* 150px padding on the left */
 }
 
 .navbar-logo {
   font-size: 1.5rem; /* Logo font size */
-  color: white; /* Color that contrasts with the background */
-  margin-right: 10px; /* Space between logo and other elements */
+  color: #7f51ad; /* Text color */
+  margin-right: 10px; /* Spacing between logo and other elements */
 }
 
 .navbar-name {
   font-size: 1.2rem; /* Font size for the navbar name */
   font-weight: bold;
-  color: white; /* Color that contrasts with the background */
+  color: #7f51ad; /* Text color */
 }
 
 .navbar-right {
   display: flex; /* Flexbox layout */
-  align-items: center; /* Vertical alignment */
+  align-items: center; /* Align content vertically */
+  padding-right: 60px; /* 150px padding on the right */
 }
 
 .nav-item {
-  color: white; /* Default text color */
+  color: #0b0b0b; /* Default text color */
   text-decoration: none;
   padding: 15px; /* Padding for clickability */
-  border-radius: 50px; /* Rounded corners */
-  transition: background-color 0.3s ease;
+  border-radius: 50px; /* Rounded corners for nav items */
+  transition: background-color 0.3s ease; /* Transition effect */
 }
 
 .nav-item:hover,
 .nav-item.active {
   background-color: rgba(255, 255, 255, 0.2); /* Hover effect */
-  border: 1px solid white; /* Border color for hover and active states */
+  border: 1px solid #7f51ad; /* Border for hover */
+  font-weight: 500; /* Font weight */
 }
 
 .nav-item.active {
-  color: white; /* Active item color */
+  color: #7f51ad; /* Active item color */
 }
 
 /* Media Queries */
 @media only screen and (max-width: 1200px) {
-  /* Adjust styles for large laptops */
-  .navbar {
-    width: calc(100% - 200px); /* Reduce the margin on smaller screens */
-  }
-
   .navbar-left {
-    padding-left: 50px; /* Adjust padding on the left */
+    padding-left: 100px; /* Adjust padding on the left */
   }
 
   .navbar-right {
-    padding-right: 50px; /* Adjust padding on the right */
+    padding-right: 100px; /* Adjust padding on the right */
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .navbar-left {
+    padding-left: 50px; /* Further adjust padding on the left */
+  }
+
+  .navbar-right {
+    padding-right: 50px; /* Further adjust padding on the right */
+  }
+
+  .navbar-name {
+    display: none; /* Hide the navbar name on smaller screens */
   }
 }
 
 @media only screen and (max-width: 768px) {
-  /* Styles for smaller displays and tablets */
   .navbar {
-    width: 100%; /* Full-width for smaller screens */
     padding: 10px; /* Padding within the navbar */
-    border-radius: 10px; /* Slightly smaller rounded corners */
   }
 
   .navbar-left {
-    padding-left: 20px; /* Adjust padding on the left */
+    padding-left: 20px; /* Significantly reduce left padding */
   }
 
   .navbar-right {
-    padding-right: 20px; /* Adjust padding on the right */
+    padding-right: 20px; /* Significantly reduce right padding */
   }
 }

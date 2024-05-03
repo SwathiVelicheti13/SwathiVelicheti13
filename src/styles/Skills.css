@@ -1,0 +1,59 @@
+/* Skills.css */
+
+/* Container for the Skills Card */
+.skills-card {
+    padding: 20px; /* Padding for spacing */
+    border-radius: 10px; /* Rounded corners for the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for the card */
+    background-color: rgb(207, 207, 226);/* Light background for the card */
+    margin: 20px auto; /* Margin for separation and centering */
+    text-align: center; /* Center-align text within the card */
+    max-width: 500px; /* Maximum width for the card */
+    width: 80%; /* Percentage-based width for responsiveness */
+    border: 1px solid black;
+  }
+  
+  /* Header styling for the card */
+  .skills-card h2 {
+    font-size: 1.5rem; /* Larger font size for the header */
+    color: #333; /* Darker color for the text */
+    margin-bottom: 10px; /* Space below the header */
+  }
+  
+  /* Container for skills items */
+  .skills-row {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr)); /* Responsive grid with minimum 80px */
+    grid-column-gap: 50px; /* Gap between columns */
+    grid-row-gap: 50px; /* Gap between rows */
+    justify-content: center; /* Center the grid items */
+  }
+  
+  /* Individual skill item styling */
+  .skill-item {
+    background-color: white; /* White background for skill items */
+    padding: 10px; /* Padding around the content */
+    border-radius: 15px; /* Rounded corners for skill items */
+    transition: 0.3s ease-in-out; /* Smooth transition for hover effects */
+    box-shadow: 0 4px 8px rgba(134, 151, 168, 0.1); /* Light shadow effect */
+    border: 1px solid #ddd; /* Border for the skill items */
+  }
+  
+  /* Hover effect for skill items */
+  .skill-item:hover {
+    box-shadow: 0 8px 16px rgba(134, 151, 168, 0.2); /* Enhanced shadow on hover */
+  }
+  
+  /* Image styling for skill icons */
+  .skill-item img {
+    width: 35px; /* Fixed width for icons */
+    height: 35px; /* Fixed height for icons */
+  }
+  
+  /* Text styling for skill labels */
+  .skill-item p {
+    margin-top: 10px; /* Margin between icon and text */
+    font-size: 0.7rem; /* Smaller font size for labels */
+    color: #555; /* Medium gray color for labels */
+  }
+  
