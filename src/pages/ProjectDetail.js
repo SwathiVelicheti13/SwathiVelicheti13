@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import projectdata from '../data/projects.json';
-import { FaGithub } from 'react-icons/fa';
+import { FaGithub, FaEdit } from 'react-icons/fa';
 import '../styles/ProjectDetail.css';
 
 const ProjectDetail = () => {
@@ -17,14 +17,17 @@ const ProjectDetail = () => {
       <div className="project-card">
         {/* Project details */}
         <div className="project-header">
-        <div className="project-name">{project.project_name}</div> 
-      </div>
+          <div className="project-name">{project.project_name}</div>
+        </div>
         <div className="project-content">
-          {/* Project features */}
+          {/* Project features with aligned bullet icons */}
           <div className="project-features">
-            <ul>
+            <ul className="feature-list">
               {project.features.map((feature, index) => (
-                <li key={index} dangerouslySetInnerHTML={{ __html: feature }} />
+                <li key={index}>
+                  <FaEdit size={22} className="feature-icon" />
+                  <span dangerouslySetInnerHTML={{ __html: feature }} />
+                </li>
               ))}
             </ul>
           </div>
