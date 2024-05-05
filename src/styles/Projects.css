@@ -3,8 +3,8 @@
     display: flex;
     justify-content: center;
     align-items: flex-start; /* Align items starting from the top */
-    margin-top: 100px; /* Adjust the margin to push content below the navbar */
-    margin-left: 80px;
+    margin-top: 40px; /* Adjust the margin to push content below the navbar */
+    margin-left: 15px;
   }
   
   

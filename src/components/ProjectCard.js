@@ -3,17 +3,25 @@ import { useNavigate } from 'react-router-dom';
 import '../styles/projectCard.css';
 
 const ProjectCard = ({ project }) => {
-  const navigate = useNavigate(); // Hook to navigate to other routes
+  const navigate = useNavigate();
 
   const handleCardClick = () => {
-    // Redirect to the detail page using the project ID
     navigate(`/project/${project.id}`);
   };
+
+  let thumbnail;
+  try {
+    // Using require to ensure Webpack includes the image
+    thumbnail = require(`../${project.thumbnail}`);
+  } catch (error) {
+    console.error("Image not found:", project.thumbnail, error);
+    thumbnail = ''; // Set a default or placeholder image
+  }
 
   return (
     <div className="card" onClick={handleCardClick}>
       <div className="thumbnail-container">
-        <img src={project.thumbnail} alt="Thumbnail" className="thumbnail" />
+        <img src={thumbnail} alt={`${project.project_name} Thumbnail`} className="thumbnail" />
       </div>
       <div className="caption">
         <div className="title">{project.project_name}</div>

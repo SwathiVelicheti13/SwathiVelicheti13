@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { BiExpandAlt } from 'react-icons/bi';
+import { FaEdit } from 'react-icons/fa'; // Import the edit icon
 import '../styles/WorkCard.css';
 
 const WorkCard = ({
@@ -25,8 +26,8 @@ const WorkCard = ({
       <div className="card-header">
         {/* Role and Company Name with Logo on the left side */}
         <div className="left-side">
-          <p className='role'>{role_name}</p>
-          <p className='name'>{company_name}</p>
+          <p className="role">{role_name}</p>
+          <p className="name">{company_name}</p>
           {company_logo && (
             <img src={require(`../${company_logo}`)} alt={`${company_name} logo`} className="company-logo" />
           )}
@@ -35,9 +36,7 @@ const WorkCard = ({
         {/* Duration and Tags on the right side */}
         <div className="right-side">
           <p>{`${start_date} - ${end_date}`}</p>
-         
           <div className="tags">
-            {/* Displaying tags for languages, tools, and libraries */}
             {languages.map((language, index) => (
               <span key={index} className="tag">
                 {language}
@@ -54,7 +53,6 @@ const WorkCard = ({
               </span>
             ))}
           </div>
-
           <BiExpandAlt className={`expand-icon ${isExpanded ? 'icon-rotated' : ''}`} />
         </div>
       </div>
@@ -63,9 +61,12 @@ const WorkCard = ({
       {isExpanded && (
         <div className="card-details">
           <h4>Achievements:</h4>
-          <ul>
+          <ul className="achievement-list"> 
             {achievements.map((achievement, index) => (
-              <li key={index}>{achievement}</li>
+              <li key={index}>
+                <FaEdit className="achievement-icon" /> 
+                <span>{achievement}</span>
+              </li>
             ))}
           </ul>
           <h4>Company Website:</h4>

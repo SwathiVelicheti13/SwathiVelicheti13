@@ -5,7 +5,7 @@
         "project_name": "MovieVerse",
         "heading": "Explore Cinema - MERN stack Website",
         "tagline": "Explore Movies and TV Shows, manage rating and reviews",
-        "thumbnail": "https://i.imgur.com/k1xUebr.png",
+        "thumbnail": "assets/project/movie.jpg",
         "startDate": "May 2023",
         "languages": ["javascript", "HTML", "CSS"],
         "tools": ["MongoDB", "Express", "React", "Node", "MongoDB Atlas"],
@@ -25,7 +25,7 @@
             "color": "#292929"
           }
         ],
-        "main_image": "https://user-images.githubusercontent.com/26730019/247542481-83c12d5b-761d-4f5b-819b-66fe93d8345f.png",
+        "main_image": "assets/project/movie.jpg",
         "features": [
           "<strong>Dynamic Search Capabilities:</strong> Users can search for movies, TV shows, and actors using flexible search options, allowing for quick and easy discovery of entertainment content.",
           "<strong>Secure User Authentication:</strong> Integrated JSON Web Tokens (JWT) for secure user authentication and authorization, ensuring safe and protected user sessions.",
@@ -39,7 +39,7 @@
         "project_name": "Calorie Tracking",
         "heading": "Diet Tracking - Exploring Django Web Application",
         "tagline": "Empowering Healthier Choices with Real-Time Data and Secure Tracking",
-        "thumbnail": "https://i.imgur.com/k1xUebr.png",
+        "thumbnail":"assets/project/calorie.jpg",
         "startDate": "May 2023",
         "languages": ["JavaScript", "HTML", "CSS", "Python"],
         "tools": ["Django Framework"],
@@ -51,7 +51,7 @@
             "color": "#292929"
           }
         ],
-        "main_image": "https://user-images.githubusercontent.com/26730019/247542481-83c12d5b-761d-4f5b-819b-66fe93d8345f.png",
+        "main_image": "assets/project/calorie.jpg",
         "features": [
           "<strong>User Authentication & Personalized Registration:</strong> Users can create accounts with secure authentication, allowing for a personalized experience based on user-specific data such as age, height, weight, and gender. This data is used to calculate ideal BMI and calorie intake.",
           "<strong>Meal Journaling with Real-Time Calorie Calculation:</strong> The app allows users to journal their meals by adding food items to a list, with real-time calorie calculation to track dietary intake throughout the day.",
@@ -64,7 +64,7 @@
         "project_name": "FaceEmotion Detection",
         "heading": "Interpreting Human Emotions Through Convolutional Neural Networks",
         "tagline": "Discovering Emotions with Convolutional Neural Networks",
-        "thumbnail": "https://i.imgur.com/k1xUebr.png",
+        "thumbnail": "assets/project/facemo.jpg",
         "startDate": "May 2023",
         "languages": ["Python"],
         "tools": ["Flask"],
@@ -81,7 +81,7 @@
             "color": "#292929"
           }
         ],
-        "main_image": "https://user-images.githubusercontent.com/26730019/247542481-83c12d5b-761d-4f5b-819b-66fe93d8345f.png",
+        "main_image": "assets/project/facemo.jpg",
         "features": [
           "<strong>Convolutional Neural Network (CNN) Model:</strong> Developed a robust face emotion detection system using a Sequential CNN trained on 1.3 million records, ensuring high accuracy and reliable results.",
           "<strong>Data Preprocessing and Model Optimization:</strong> Applied effective data preprocessing techniques and utilized callbacks to monitor and improve model accuracy, reducing loss metrics.",
