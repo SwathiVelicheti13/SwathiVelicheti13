@@ -13,14 +13,18 @@ import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
 function App() {
   return (
     <Router>
+      <div className='hero'>
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Navigate to="/home" />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/works" element={<Works />} />
-        <Route path="/project/:id" element={<ProjectDetail />} />
-      </Routes>
+      </div>
+      <div className='content'>
+        <Routes>
+          <Route path="/" element={<Navigate to="/home" />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/works" element={<Works />} />
+          <Route path="/project/:id" element={<ProjectDetail />} />
+        </Routes>
+      </div>
     </Router>
   );
 }
