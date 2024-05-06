@@ -18,7 +18,9 @@ function Navbar() {
     <nav className="navbar">
     <div className="navbar-left">
       <FontAwesomeIcon icon={faSpider} className="navbar-logo" />
-      <span className="navbar-name">Swathi Velicheti</span>
+      <NavLink exact to="/" className="navbar-name" activeClassName="active">
+          Swathi Velicheti
+      </NavLink>
     </div>
     <div className="navbar-right">
       <NavLink exact to="/" className="nav-item" activeClassName="active">

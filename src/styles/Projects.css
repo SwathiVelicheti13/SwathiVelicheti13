@@ -1,28 +1,41 @@
 
+
 .project-page {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    margin-top: 40px;
-    margin-left: 15px;
-  }
-  
-  
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    gap: 30px;
-  }
-  
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 40px;
+  margin-left: 15px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+.column {
+  flex: 1 0 calc(33.33% - 20px);
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
   .column {
-    flex: 1 0 calc(33.33% - 20px);
+    flex: 1 0 calc(50% - 10px);
   }
-  
- 
-  @media only screen and (max-width: 768px) {
-    .column {
-      flex: 1 0 calc(50% - 10px);
-    }
+}
+
+
+@media only screen and (max-width: 480px) {
+  .row {
+      justify-content: center;
   }
-  
+
+  .column {
+      flex: 1 0 100%;
+      margin-bottom: 20px;
+  }
+}

@@ -1,37 +1,37 @@
-body{
-    background-color:rgb(225, 222, 222);
-}
 
+body {
+    background-color: rgb(225, 222, 222);
+}
 
 .app-container {
     height: 100vh;
     display: flex;
     flex-direction: column;
-  }
-  
+}
+
 .hero {
     position: relative;
     height: 200px; 
-    background-image: url('/src/assets/background_image.jpg'); 
+    background-image: url('/src/assets/background_image.jpg');
     background-size: cover;
     background-position: center;
 }
-.page{
+
+.page {
     margin-top: 20px;
     margin-right: 10%;
     margin-left: 10%;
-    
 }
 
-.skilltags{
- display: flex;
- flex-wrap: wrap;
- list-style-type: none;
+.skilltags {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
 }
 
-.tag{
+.tag {
     border-radius: 20px;
-    padding: 5px 12px 5px 12px;
+    padding: 5px 12px;
     font-weight: 600;
     font-size: small;
     color: white;
@@ -39,14 +39,53 @@ body{
     margin-right: 10px;
 }
 
-
 .content {
-    margin-top: 5px; 
-    overflow-y:auto;
-    height:calc(100vh - 200px);
-    flex: 1; 
-  }
+    margin-top: 5px;
+    overflow-y: auto;
+    height: calc(100vh - 200px);
+    flex: 1;
+}
 
 
 
-  
+
+@media only screen and (max-width: 600px) {
+    .app-container {
+        padding: 10px;
+    }
+
+    .hero {
+        height: 100px;
+    }
+
+    .page {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .tag {
+        font-size: x-small;
+        padding: 4px 8px;
+        margin-right: 5px;
+    }
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 960px) {
+    .hero {
+        height: 150px;
+    }
+
+    .page {
+        margin-right: 7.5%;
+        margin-left: 7.5%;
+    }
+
+    .tag {
+        font-size: smaller;
+        padding: 5px 10px;
+    }
+}
+
+
+

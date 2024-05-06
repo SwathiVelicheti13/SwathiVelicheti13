@@ -1,3 +1,5 @@
+
+
 .work-card {
   width: 1000px;
   border: 1px solid black;
@@ -10,20 +12,17 @@
   transition: all 0.3s ease;
 }
 
-
 .card-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-
 .left-side {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
-
 
 .right-side {
   display: flex;
@@ -32,20 +31,17 @@
   gap: 10px;
 }
 
-
 .company-logo {
   max-width: 50px;
   height: auto;
   margin-top: 5px;
 }
 
-
 .tags {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
 }
-
 
 .tag {
   display: inline-block;
@@ -59,8 +55,6 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
-
-
 
 .achievement-list {
   list-style: none;
@@ -80,61 +74,58 @@
 }
 
 
+
+
 @media (max-width: 992px) {
-  .card-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap:5px;
-  
+  .work-card {
+    width: 80%;
+    margin-left: 0;
   }
 
- 
+  .card-header {
+    gap: 5px;
+  }
+
   .left-side {
-    flex-direction: column;
     align-items: center;
     justify-content: flex-start;
   }
 
- 
   .right-side {
-    flex-direction: column;
     align-items: flex-end;
-    justify-content: flex-end;
   }
 
- 
   .tags {
-    display: flex;
-    flex-wrap: wrap;
     gap: 5px;
   }
 }
 
 
 @media (max-width: 576px) {
+  .work-card {
+    width: 100%;
+  }
+
   .card-header {
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
   }
 
- 
   .left-side {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; 
-    text-align:left/* Align to the start */
+    text-align: left;
   }
 
   .right-side {
-    display: flex;
-    flex-direction: column;
     align-items: flex-start;
     gap: 10px;
   }
 
   .company-logo {
     max-width: 30px;
+  }
+
+  .tags {
+    gap: 5px;
   }
 }

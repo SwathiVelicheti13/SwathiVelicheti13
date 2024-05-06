@@ -1,4 +1,4 @@
-/* aboutme.css */
+
 
 .aboutme {
     padding: 20px;
@@ -44,3 +44,46 @@
 .button:hover {
     background-color: #0056b3;
 }
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .aboutme {
+        padding: 10px;
+    }
+
+    .section-heading {
+        font-size: 20px;
+    }
+
+    .section-content {
+        font-size: 14px;
+    }
+
+    .button {
+        padding: 8px 16px;
+    }
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 960px) {
+    .section-box {
+        margin-bottom: 20px;
+    }
+    
+    .section-heading {
+        font-size: 22px;
+    }
+    
+    .section-content {
+        font-size: 15px;
+    }
+
+    .button {
+        padding: 9px 18px;
+    }
+}
+
+
+
