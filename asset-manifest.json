@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/SwathiVelicheti13/static/css/main.99460359.css",
-    "main.js": "/SwathiVelicheti13/static/js/main.ab6653a6.js",
-    "static/js/453.01d220a7.chunk.js": "/SwathiVelicheti13/static/js/453.01d220a7.chunk.js",
+    "main.js": "/SwathiVelicheti13/static/js/main.b792654a.js",
+    "static/js/453.5858e738.chunk.js": "/SwathiVelicheti13/static/js/453.5858e738.chunk.js",
     "static/media/background_image.jpg": "/SwathiVelicheti13/static/media/background_image.f04dcaf45f4824cb9a1d.jpg",
     "static/media/Screenshot 2024-05-06 at 1.55.05 AM.png": "/SwathiVelicheti13/static/media/Screenshot 2024-05-06 at 1.55.05 AM.f0e87feeaa556ea87336.png",
     "static/media/calorie_track 2.png": "/SwathiVelicheti13/static/media/calorie_track 2.6d6d69b170539e2c0549.png",
@@ -29,11 +29,11 @@
     "static/media/logo.svg": "/SwathiVelicheti13/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/SwathiVelicheti13/index.html",
     "main.99460359.css.map": "/SwathiVelicheti13/static/css/main.99460359.css.map",
-    "main.ab6653a6.js.map": "/SwathiVelicheti13/static/js/main.ab6653a6.js.map",
-    "453.01d220a7.chunk.js.map": "/SwathiVelicheti13/static/js/453.01d220a7.chunk.js.map"
+    "main.b792654a.js.map": "/SwathiVelicheti13/static/js/main.b792654a.js.map",
+    "453.5858e738.chunk.js.map": "/SwathiVelicheti13/static/js/453.5858e738.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.99460359.css",
-    "static/js/main.ab6653a6.js"
+    "static/js/main.b792654a.js"
   ]
 }
