@@ -11,11 +11,11 @@ const ProjectCard = ({ project }) => {
 
   let thumbnail;
   try {
-    // Using require to ensure Webpack includes the image
+   
     thumbnail = require(`../${project.thumbnail}`);
   } catch (error) {
     console.error("Image not found:", project.thumbnail, error);
-    thumbnail = ''; // Set a default or placeholder image
+    thumbnail = ''; 
   }
 
   return (

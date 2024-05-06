@@ -24,7 +24,7 @@ const WorkCard = ({
   return (
     <div className={`work-card ${isExpanded ? 'expanded' : ''}`} onClick={toggleExpanded}>
       <div className="card-header">
-        {/* Role and Company Name with Logo on the left side */}
+      
         <div className="left-side">
           <p className="role">{role_name}</p>
           <p className="name">{company_name}</p>
@@ -33,7 +33,7 @@ const WorkCard = ({
           )}
         </div>
 
-        {/* Duration and Tags on the right side */}
+      
         <div className="right-side">
           <p>{`${start_date} - ${end_date}`}</p>
           <div className="tags">
@@ -57,7 +57,7 @@ const WorkCard = ({
         </div>
       </div>
 
-      {/* Expanded content showing achievements and links */}
+     
       {isExpanded && (
         <div className="card-details">
           <h4>Achievements:</h4>

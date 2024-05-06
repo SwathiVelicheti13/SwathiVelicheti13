@@ -2,8 +2,8 @@
 .project-page {
     display: flex;
     justify-content: center;
-    align-items: flex-start; /* Align items starting from the top */
-    margin-top: 40px; /* Adjust the margin to push content below the navbar */
+    align-items: flex-start;
+    margin-top: 40px;
     margin-left: 15px;
   }
   
@@ -11,18 +11,18 @@
   .row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start; /* Align items starting from the left */
-    gap: 30px; /* Adjust the gap between columns */
+    justify-content: flex-start;
+    gap: 30px;
   }
   
   .column {
-    flex: 1 0 calc(33.33% - 20px); /* Adjust the width of each column */
+    flex: 1 0 calc(33.33% - 20px);
   }
   
-  /* Adjust styles for smaller screens */
+ 
   @media only screen and (max-width: 768px) {
     .column {
-      flex: 1 0 calc(50% - 10px); /* For smaller screens, display 2 columns */
+      flex: 1 0 calc(50% - 10px);
     }
   }
   

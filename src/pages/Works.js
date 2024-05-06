@@ -5,10 +5,8 @@ import workData from '../data/work.json';
 import WorkCard from '../components/workCard.js';
 
 const Works = () => {
-  // Check the imported data structure
   console.log("Imported workData:", workData);
 
-  // Verify that `works` is an array before mapping
   const worksArray = workData.works;
   if (!Array.isArray(worksArray)) {
     console.error("Error: `works` is not an array.");

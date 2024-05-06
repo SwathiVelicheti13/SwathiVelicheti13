@@ -6,40 +6,29 @@ const AboutMe = () => {
 
     return (
         <div className="aboutme">
-            <div className=" section-box section-height lh-lg">
+            <div className="section-box section-height lh-lg">
                 <div className="section-heading">
                     About me
                 </div>
 
                 <div className="section-content">
-                    I am an experienced software engineer with a strong background in game development. 
-                    My expertise lies in JavaScript, C#, and Python, and I absolutely love coding. 
-                    What drives me the most is the opportunity to use technology to create a real human impact and 
-                    contribute to a sustainable world.<br /><br />
-
-                    Throughout my journey, I have acquired a diverse range of skills, making me a versatile generalist. 
-                    Problem-solving is my passion, and I am always eager to learn new technologies to stay ahead in the 
-                    ever-evolving tech landscape.<br /><br />
-
-                    My main goal is to build applications that have a meaningful impact on people's lives, 
-                    leveraging my experience with databases and software development. I believe in the power of 
-                    continuous improvement, always striving to be better than I was yesterday.
-
-                    <br />
-
+                    I'm a full-stack developer with a strong focus on backend technologies. I excel in building scalable web applications using frameworks like Django and have a solid command of JavaScript for front-end development, along with extensive experience in Python. My experience with SQL databases ensures robust data management and seamless integration between different components of a project.
+    
+                    I enjoy solving technical challenges and constantly seek out opportunities to learn new technologies. 
+                    <br /><br />
+                    This curiosity fuels my passion for full-stack development, allowing me to build applications that deliver innovative solutions. I take pride in creating meaningful user experiences through thoughtful design and efficient backend systems.
+                    My aim is to contribute to projects that have a lasting impact.
+                    <br /><br />
                 </div>
-                <br/>
-
-                <Link to={window.location.origin + "https://raw.githubusercontent.com/swathivelicheti13/swathivelicheti13/main/src/assets/Swathi_Velicheti_Resume_24.pdf"} target="_blank">
-
+                
+                <Link to="https://raw.githubusercontent.com/swathivelicheti13/swathivelicheti13/main/src/assets/Swathi_Velicheti_Resume_24.pdf" target="_blank">
                     <div className="button" style={{ float: "None" }}>
-
                         View Resume
                     </div>
                 </Link>
+            </div>
         </div>
-        </div>
-    )
+    );
 }
 
-export default AboutMe
+export default AboutMe;

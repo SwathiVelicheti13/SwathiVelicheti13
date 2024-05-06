@@ -1,71 +1,71 @@
 .name-container {
-  display: flex; /* Horizontal layout */
-  justify-content: space-between; /* Icons on the right */
-  align-items: center; /* Align vertically */
-  padding: 10px; /* Padding for spacing */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
   margin-left:520px
 }
 
 .name-text {
-  display: flex; /* Horizontal layout for name and role */
-  flex-direction: column; /* Vertical stacking of name and role */
-  align-items: flex-start; /* Align to the left */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .name-title {
-  font-family: 'Roboto Black', sans-serif; /* Bold sans-serif for the name */
-  font-size: 2.5em; /* Larger font size for the name */
-  font-weight: 700; /* Bold weight */
-  color: #000; /* Dark color for emphasis */
+  font-family: 'Roboto Black', sans-serif;
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #000;
 }
 
 .role-text {
-  font-family: 'Open Sans Light', sans-serif; /* Lighter sans-serif for the role */
-  font-size: 1.5em; /* Smaller font size for the role */
-  font-weight: 300; /* Light weight */
-  color: #666; /* Gray for contrast */
-  margin-top: 10px; /* Margin to separate role from the name */
+  font-family: 'Open Sans Light', sans-serif;
+  font-size: 1.5em;
+  font-weight: 300;
+  color: #666;
+  margin-top: 10px;
   margin-left:10px;
 }
 
 .social-links {
-  display: flex; /* Horizontal layout for icons */
-  gap: 10px; /* Space between icons */
+  display: flex;
+  gap: 10px;
   margin-right:520px;
 }
 
 .social-links a {
-  text-decoration: none; /* No underline */
-  transition: transform 0.3s, opacity 0.3s; /* Transition effects */
+  text-decoration: none;
+  transition: transform 0.3s, opacity 0.3s;
 }
 
 .social-links a:hover {
-  transform: scale(1.2); /* Scale on hover */
-  opacity: 0.7; /* Transparency on hover */
+  transform: scale(1.2);
+  opacity: 0.7;
 }
 
 
-/* Keyframes for reveal animation */
+
 @keyframes revealAnimation {
   0% {
-    opacity: 0; /* Invisible at the start */
-    transform: translateX(-100%); /* Start from the left */
+    opacity: 0;
+    transform: translateX(-100%);
   }
   100% {
-    opacity: 1; /* Fully visible at the end */
-    transform: translateX(0); /* Return to normal position */
+    opacity: 1;
+    transform: translateX(0);
   }
 }
 
-/* Media Queries for Responsive Design */
+
 @media screen and (max-width: 768px) {
   .name-container {
-    flex-direction: column; /* Vertical layout for smaller screens */
-    align-items: flex-start; /* Align to the left */
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .social-links {
-    justify-content: center; /* Center the icons for smaller screens */
+    justify-content: center;
   }
 }
 
@@ -78,28 +78,4 @@
 
 
 
-/* .name-card{
-  position: relative;
-}
 
-.name {
-  cursor: pointer; 
-  font-size: 2em;
-  color: #333; 
-  transition: color 0.3s ease;
-}
-
-.role {
-  opacity: 0;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  transition: opacity 0.3s ease;
-}
-
-.name:hover {
-  color: #7f51ad; 
-}
-
-.name:hover + .role {
-  opacity: 1;  */

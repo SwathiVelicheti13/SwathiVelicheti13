@@ -1,101 +1,101 @@
 
 .navbar {
-  background-color: #e7e5ea; /* Navbar background color */
-  padding: 7px; /* Padding within the navbar */
-  border-radius: 20px; /* Rounded corners for the navbar */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Shadow for depth */
-  position: fixed; /* Fix the navbar at the top */
-  top:60px; /* Align at the top */
+  background-color: #e7e5ea;
+  padding: 7px;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top:60px;
   left:390px;
-  z-index: 1000; /* High z-index to stay above other content */
-  width: calc(100% - 800px); /* Width with margins considered */
-  margin: 0 auto; /* Center the navbar */
-  display: flex; /* Flexbox layout */
-  justify-content: space-between; /* Space between left and right sections */
-  align-items: center; /* Align content vertically */
+  z-index: 1000;
+  width: calc(100% - 800px);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
 } 
 
 
 
 .navbar-left {
-  display: flex; /* Flexbox layout */
-  align-items: center; /* Align content vertically */
-  padding-left: 60px; /* 150px padding on the left */
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
 }
 
 .navbar-logo {
-  font-size: 1.5rem; /* Logo font size */
-  color: #7f51ad; /* Text color */
-  margin-right: 10px; /* Spacing between logo and other elements */
+  font-size: 1.5rem;
+  color: #7f51ad;
+  margin-right: 10px;
 }
 
 .navbar-name {
-  font-size: 1.2rem; /* Font size for the navbar name */
+  font-size: 1.2rem;
   font-weight: bold;
-  color: #7f51ad; /* Text color */
+  color: #7f51ad;
 }
 
 .navbar-right {
-  display: flex; /* Flexbox layout */
-  align-items: center; /* Align content vertically */
-  padding-right: 60px; /* 150px padding on the right */
+  display: flex;
+  align-items: center;
+  padding-right: 60px;
 }
 
 .nav-item {
-  color: #0b0b0b; /* Default text color */
+  color: #0b0b0b;
   text-decoration: none;
-  padding: 15px; /* Padding for clickability */
-  border-radius: 50px; /* Rounded corners for nav items */
-  transition: background-color 0.3s ease; /* Transition effect */
+  padding: 15px;
+  border-radius: 50px;
+  transition: background-color 0.3s ease;
 }
 
 .nav-item:hover,
 .nav-item.active {
-  background-color: rgba(255, 255, 255, 0.2); /* Hover effect */
-  border: 1px solid #7f51ad; /* Border for hover */
-  font-weight: 500; /* Font weight */
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid #7f51ad;
+  font-weight: 500;
 }
 
 .nav-item.active {
-  color: #7f51ad; /* Active item color */
+  color: #7f51ad;
 }
 
-/* Media Queries */
+
 @media only screen and (max-width: 1200px) {
   .navbar-left {
-    padding-left: 100px; /* Adjust padding on the left */
+    padding-left: 100px;
   }
 
   .navbar-right {
-    padding-right: 100px; /* Adjust padding on the right */
+    padding-right: 100px;
   }
 }
 
 @media only screen and (max-width: 992px) {
   .navbar-left {
-    padding-left: 50px; /* Further adjust padding on the left */
+    padding-left: 50px;
   }
 
   .navbar-right {
-    padding-right: 50px; /* Further adjust padding on the right */
+    padding-right: 50px;
   }
 
   .navbar-name {
-    display: none; /* Hide the navbar name on smaller screens */
+    display: none;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .navbar {
-    padding: 10px; /* Padding within the navbar */
+    padding: 10px;
   }
 
   .navbar-left {
-    padding-left: 20px; /* Significantly reduce left padding */
+    padding-left: 20px;
   }
 
   .navbar-right {
-    padding-right: 20px; /* Significantly reduce right padding */
+    padding-right: 20px;
   }
 }

@@ -1,4 +1,4 @@
-/* Default styles */
+
 .card {
     position: relative;
     overflow: hidden;
@@ -50,7 +50,7 @@
     transform: translateY(-50%);
   }
   
-  /* Media queries for .card */
+ 
 @media only screen and (max-width: 1200px) {
     .card {
       width: 350px;

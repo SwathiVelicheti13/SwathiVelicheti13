@@ -10,7 +10,7 @@ import jsIcon from '../assets/icons/java-script.png';
 import reactIcon from '../assets/icons/react.png';
 import gitIcon from '../assets/icons/git.png';
 import vscodeIcon from '../assets/icons/vscode.png';
-import '../styles/Skills.css'; // CSS for this component
+import '../styles/Skills.css'; 
 
 const Skills = () => {
   const skills = [
@@ -28,11 +28,11 @@ const Skills = () => {
   ];
 
   return (
-    <div className="skills-card"> {/* Wrap skills in a card */}
-      <h2>Skills</h2> {/* Card title */}
-      <div className="skills-row"> {/* Container for the skills in a row */}
+    <div className="skills-card"> 
+      <h2>Skills</h2> 
+      <div className="skills-row"> 
         {skills.map((skill, index) => (
-          <div key={index} className="skill-item"> {/* Each skill item */}
+          <div key={index} className="skill-item"> 
             <img src={skill.src} alt={skill.label} />
             <p>{skill.label}</p>
           </div>

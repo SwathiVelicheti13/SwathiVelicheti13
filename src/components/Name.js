@@ -8,7 +8,7 @@ const Name = () => {
     <div className="name-container">
       <div className="name-text">
         <h1 className="reveal-text">Swathi Velicheti</h1>
-        <p className="role-text">Back End Developer</p> {/* Role text below the name */}
+        <p className="role-text">Back End Developer</p> 
       </div>
       <div className="social-links">
         <a href="https://github.com/SwathiVelicheti13" target="_blank" rel="noopener noreferrer">

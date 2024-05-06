@@ -51,7 +51,7 @@
             "color": "#292929"
           }
         ],
-        "main_image": "assets/project/calorie.jpg",
+        "main_image": "assets/project/calorie_track2.png",
         "features": [
           "<strong>User Authentication & Personalized Registration:</strong> Users can create accounts with secure authentication, allowing for a personalized experience based on user-specific data such as age, height, weight, and gender. This data is used to calculate ideal BMI and calorie intake.",
           "<strong>Meal Journaling with Real-Time Calorie Calculation:</strong> The app allows users to journal their meals by adding food items to a list, with real-time calorie calculation to track dietary intake throughout the day.",
@@ -81,7 +81,7 @@
             "color": "#292929"
           }
         ],
-        "main_image": "assets/project/facemo.jpg",
+        "main_image": "assets/project/new_face_emo.jpg",
         "features": [
           "<strong>Convolutional Neural Network (CNN) Model:</strong> Developed a robust face emotion detection system using a Sequential CNN trained on 1.3 million records, ensuring high accuracy and reliable results.",
           "<strong>Data Preprocessing and Model Optimization:</strong> Applied effective data preprocessing techniques and utilized callbacks to monitor and improve model accuracy, reducing loss metrics.",

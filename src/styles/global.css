@@ -4,15 +4,15 @@ body{
 
 
 .app-container {
-    height: 100vh; /* Full viewport height */
+    height: 100vh;
     display: flex;
     flex-direction: column;
   }
   
 .hero {
     position: relative;
-    height: 200px; /* This defines the height of the hero section */
-    background-image: url('/src/assets/background_image.jpg'); /* Hero image */
+    height: 200px; 
+    background-image: url('/src/assets/background_image.jpg'); 
     background-size: cover;
     background-position: center;
 }
@@ -41,11 +41,10 @@ body{
 
 
 .content {
-    margin-top: 5px; /* Start content below the hero section */
-    /* padding: 20px; Optional padding */
-    overflow-y:auto; /* Allow vertical scrolling */
+    margin-top: 5px; 
+    overflow-y:auto;
     height:calc(100vh - 200px);
-    flex: 1; /* Ensure content area takes the remaining space */
+    flex: 1; 
   }
 
 
