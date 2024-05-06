@@ -51,89 +51,41 @@
 }
 
 
-/* Adjusts skills card for smaller screens */
+
 @media only screen and (max-width: 768px) {
   .skills-card {
-    width: 80%; /* Adjusted width to match other components */
-    padding: 15px; /* Adjusted padding */
-    border-radius: 10px; /* Decrease border radius */
-    margin: 10px auto 0px 40px; /* Centered margin */
+    width: 80%;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px auto 0px 40px;
   }
 
   .skills-row {
-    grid-template-columns: repeat(auto-fill, minmax(60px, 1fr)); /* Smaller columns for smaller screens */
-    grid-column-gap: 20px; /* Adjusted gap between columns */
-    grid-row-gap: 30px; /* Adjusted gap between rows */
+    grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
   }
 
   .skill-item {
-    padding: 8px; /* Adjusted padding */
+    padding: 8px;
   }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1200px) {
   .skills-card {
-      width: 70%; /* Adjusted width for iPad and Nest Hub */
-      padding: 15px; /* Adjusted padding */
-      border-radius: 10px; /* Keep border radius smaller */
-      margin: 20px auto; /* Centered margin */
+      width: 70%;
+      padding: 15px;
+      border-radius: 10px;
+      margin: 20px auto;
   }
   
   .skills-row {
-      grid-template-columns: repeat(auto-fill, minmax(60px, 1fr)); /* Grid adjustments */
-      grid-column-gap: 30px; /* Adjusted gap between columns */
-      grid-row-gap: 30px;   /* Adjusted gap between rows */
-  }
-}
-
-
-
-/* @media only screen and (max-width: 1200px) {
-  .skills-card {
-      max-width: 400px;
-  }
-
-  .skills-row {
-      grid-column-gap: 30px;
-  }
-}
-
-
-@media only screen and (max-width: 768px) {
-  .skills-card {
-      padding: 15px;
-  }
-
-  .skills-row {
       grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
-      grid-column-gap: 20px;
-      grid-row-gap: 30px;
-  }
-
-  .skill-item {
-      padding: 8px;
-  }
-
-  .skill-item img {
-      width: 30px;
-  }
-
-  .skill-item p {
-      font-size: 0.6rem;
+      grid-column-gap: 30px;
+      grid-row-gap: 30px;  
   }
 }
 
 
-@media only screen and (max-width: 480px) {
-  .skills-card {
-      max-width: 300px;
-  }
 
-  .skills-row {
-      grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
-  }
 
-  .skill-item {
-      padding: 5px;
-  }
-} */

@@ -20,10 +20,10 @@
   }
 }
 
-/* For screens up to 992px */
+
 @media (max-width: 992px) {
   .work-page {
-    padding-top: 40px; /* Reducing top padding for smaller screens */
+    padding-top: 40px;
     padding-left: 15px;
     padding-right: 15px;
     align-items: center; 
@@ -31,25 +31,25 @@
   }
 }
 
-/* For screens up to 576px */
+
 @media (max-width: 576px) {
   .work-page {
-    padding-top: 30px; /* Reduced top padding */
-    padding-left: 10px; /* Narrower padding for smaller screens */
+    padding-top: 30px;
+    padding-left: 10px;
     padding-right: 10px;
-    justify-content: flex-start; /* Ensures content is centered */
-    align-items: center; /* Centers content vertically */
+    justify-content: flex-start;
+    align-items: center;
   }
 }
 
-/* For screens up to 480px */
+
 @media (max-width: 480px) {
   .work-page {
-    padding-top: 20px; /* Further reduced padding */
+    padding-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
-    justify-content: flex-start; /* Ensures content is centered */
-    align-items: center; /* Centers content vertically */
-    margin-left: 10px; /* Reset margin to avoid leftward shift */
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 10px;
   }
 }

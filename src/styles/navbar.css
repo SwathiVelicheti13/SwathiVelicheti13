@@ -62,7 +62,7 @@
 
 
 .navbar-toggle {
-  display: none; /* Hide by default */
+  display: none;
   background: none;
   border: none;
   font-size: 1.5rem;
@@ -99,25 +99,24 @@
 
 @media only screen and (max-width: 768px) {
   .navbar-toggle {
-    display: inline-block; /* Make the toggle visible on small screens */
-    position: absolute; /* Position it absolutely */
-    right: 5px; /* Move to the extreme right with 5px margin */
-    margin-right: 5px; /* Extra right margin */
+    display: inline-block;
+    position: absolute;
+    right: 5px;
   }
 
   .navbar-right {
-    max-height: 0; /* Collapsed by default */
+    max-height: 0;
     overflow: hidden;
-    flex-direction: column; /* Vertical stacking */
-    align-items: flex-end; /* Align to end */
+    flex-direction: column;
+    align-items: flex-end;
   }
 
   .navbar-right.open {
-    max-height: 200px; /* Set a reasonable max-height when expanded */
+    max-height: 200px;
   }
 
   .navbar {
-    width: 75%; /* Reduce width for smaller screens */
+    width: 75%;
     padding: 5px;
     border-radius: 10px;
     top: 30px;
@@ -130,7 +129,7 @@
   }
 
   .navbar-right {
-    padding-right: 25px; /* Adjust padding */
+    padding-right: 25px;
   }
 
   .navbar-name {
@@ -147,53 +146,53 @@
 }
 
 
-/* Media query for iPads and similar devices with 1024px width */
+
 @media only screen and (min-width: 770px) and (max-width: 1024px) {
-  /* Ensure navbar-name is visible */
+ 
   .navbar-name {
-    display: inline-block; /* Keep it visible */
-    font-size: 1rem; /* Make sure the font is readable */
-    margin-left: 10px; /* Ensure proper spacing */
+    display: inline-block;
+    font-size: 1rem;
+    margin-left: 10px;
   }
 
-  /* Adjust navbar width for iPads */
+ 
   .navbar {
-    width: 75%; /* Allow for more space on iPad-sized screens */
+    width: 75%;
     top: 55px;
-    left: 50px; /* Adjust horizontal alignment */
+    left: 50px;
   }
 
   .navbar-left {
-    padding-left: 40px; /* Adjust padding */
+    padding-left: 40px;
   }
 
   .navbar-right {
-    padding-right: 40px; /* Adjust padding */
+    padding-right: 40px;
   }
 }
 
-/* Media query for Nest Hub and similar devices */
+
 @media only screen and (max-width: 1280px) and (min-width: 1024px) {
-  /* Ensure navbar-name is visible and readable */
+ 
   .navbar-name {
-    display: inline-block; /* Make sure it's not hidden */
-    font-size: 1.1rem; /* Slightly larger font for readability */
-    margin-left: 10px; /* Maintain proper spacing */
+    display: inline-block;
+    font-size: 1.1rem;
+    margin-left: 10px;
   }
 
-  /* Adjust navbar size for Nest Hub */
+ 
   .navbar {
-    width: 90%; /* Allow more space */
-    top: 40px; /* Slightly lower position */
-    left: 70px; /* Adjust left alignment */
+    width: 90%;
+    top: 40px;
+    left: 70px;
   }
 
   .navbar-left {
-    padding-left: 45px; /* Adjust padding for Nest Hub */
+    padding-left: 45px;
   }
 
   .navbar-right {
-    padding-right: 45px; /* Adjust padding for Nest Hub */
+    padding-right: 45px;
   }
 }
 

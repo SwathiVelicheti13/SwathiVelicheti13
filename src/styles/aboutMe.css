@@ -46,37 +46,37 @@
 
 
 
-/* Adjusts aboutme for smaller screens */
+
 @media only screen and (max-width: 768px) {
     .aboutme {
-      width: 80%; /* Adjusted width for smaller screens */
-      padding: 15px; /* Adjusted padding */
-      border-radius: 10px; /* Decrease border radius */
-      margin: 10px auto; /* Centered margin */
+      width: 80%;
+      padding: 15px;
+      border-radius: 10px;
+      margin: 10px auto;
     }
   
     .section-heading {
-      font-size: 20px; /* Adjusted font size */
+      font-size: 20px;
     }
   
     .section-content {
-      font-size: 14px; /* Adjusted font size */
+      font-size: 14px;
     }
   }
   
 
   @media only screen and (min-width: 769px) and (max-width: 1200px) {
     .aboutme {
-        width: 70%; /* Adjusted width for iPad and Nest Hub */
-        padding: 15px; /* Adjusted padding */
-        margin: 20px auto; /* Centered margin */
+        width: 70%;
+        padding: 15px;
+        margin: 20px auto;
     }
     
     .section-heading {
-        font-size: 22px; /* Slightly smaller font size for better fit */
+        font-size: 22px;
     }
     
     .section-content {
-        font-size: 15px; /* Slightly smaller font size for better readability */
+        font-size: 15px;
     }
 }
