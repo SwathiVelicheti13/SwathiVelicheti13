@@ -22,20 +22,32 @@
 
 
 
-@media only screen and (max-width: 768px) {
-  .column {
-    flex: 1 0 calc(50% - 10px);
+@media only screen and (min-width: 769px) {
+  .row {
+    justify-content: center; 
+    margin-left: 60px;
+    gap:30px; 
+  }
+
+  .project-page {
+    justify-content: center; 
+    align-items: center; 
+    
   }
 }
+
 
 
 @media only screen and (max-width: 480px) {
   .row {
       justify-content: center;
+      margin-right:30px;
   }
 
   .column {
       flex: 1 0 100%;
       margin-bottom: 20px;
   }
+
+
 }

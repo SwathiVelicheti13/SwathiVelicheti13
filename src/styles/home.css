@@ -39,43 +39,54 @@
 
 
 @media screen and (max-width: 1200px) {
-    .container {
-        margin-right: 0;
-    }
 
-    .aboutme {
-        margin-left: 50px;
-    }
 
     .name-card {
         margin-left: 150px;
     }
 }
 
-
-@media screen and (max-width: 768px) {
+/* Adjusts the layout for smaller screens */
+@media only screen and (max-width: 768px) {
     .container {
-        flex-direction: column;
-        align-items: center;
+      flex-direction: column; /* Stacked layout */
+      align-items: center; /* Center alignment */
+      justify-content: center; /* Center the container */
+      
     }
-
-    .aboutme, .skills {
+  
+    .aboutme{
         width: 80%;
+        margin-left:55px;
+        padding: 15px; 
+
+    }
+    
+    .skills {
+      width: 80%; 
+      margin:unset;
+      padding: 15px;
+    }
+  
+  }
+
+  @media screen and (min-width: 769px) and (max-width: 1200px) {
+    .container {
+        flex-direction: column; /* Stacked layout for iPad and Nest Hub screens */
+        align-items: center;   /* Center alignment */
     }
 
     .aboutme {
-        margin-left: 0;
+        width: 70%; /* Slightly narrower for better fit */
+        margin-left: unset; /* Center alignment */
+        margin: 20px auto;  /* Auto-margin to keep centered */
+    }
+    
+    .skills {
+        width: 70%; /* Slightly narrower to avoid thin cards */
+        padding: 15px; /* Adjusted padding */
+        margin: 20px auto; /* Centered margin */
     }
 }
 
-
-@media screen and (max-width: 480px) {
-    .aboutme, .skills {
-        width: 90%;
-        padding: 10px;
-    }
-
-    .container {
-        padding: 10px;
-    }
-}
+  
