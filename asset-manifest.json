@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SwathiVelicheti13/static/css/main.9594e9b7.css",
-    "main.js": "/SwathiVelicheti13/static/js/main.8e01790c.js",
+    "main.css": "/SwathiVelicheti13/static/css/main.4254c6f8.css",
+    "main.js": "/SwathiVelicheti13/static/js/main.016db22f.js",
     "static/js/453.5858e738.chunk.js": "/SwathiVelicheti13/static/js/453.5858e738.chunk.js",
     "static/media/background_image.jpg": "/SwathiVelicheti13/static/media/background_image.f04dcaf45f4824cb9a1d.jpg",
     "static/media/Screenshot 2024-05-06 at 1.55.05 AM.png": "/SwathiVelicheti13/static/media/Screenshot 2024-05-06 at 1.55.05 AM.f0e87feeaa556ea87336.png",
@@ -28,12 +28,12 @@
     "static/media/css.png": "/SwathiVelicheti13/static/media/css.4a6549b8c2b4cda8bb88.png",
     "static/media/logo.svg": "/SwathiVelicheti13/static/media/logo.6ce24c58023cc2f8fd88.svg",
     "index.html": "/SwathiVelicheti13/index.html",
-    "main.9594e9b7.css.map": "/SwathiVelicheti13/static/css/main.9594e9b7.css.map",
-    "main.8e01790c.js.map": "/SwathiVelicheti13/static/js/main.8e01790c.js.map",
+    "main.4254c6f8.css.map": "/SwathiVelicheti13/static/css/main.4254c6f8.css.map",
+    "main.016db22f.js.map": "/SwathiVelicheti13/static/js/main.016db22f.js.map",
     "453.5858e738.chunk.js.map": "/SwathiVelicheti13/static/js/453.5858e738.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9594e9b7.css",
-    "static/js/main.8e01790c.js"
+    "static/css/main.4254c6f8.css",
+    "static/js/main.016db22f.js"
   ]
 }
