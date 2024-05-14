@@ -1,14 +1,26 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faGoogle } from '@fortawesome/free-brands-svg-icons';
 import '../styles/name.css';
 
 const Name = () => {
+  const [revealText, setRevealText] = useState(false);
+
+  useEffect(() => {
+    // Set reveal text to true after a delay
+    const timeout = setTimeout(() => {
+      setRevealText(true);
+    }, 1000); // Adjust the delay as needed
+
+    // Clear the timeout on component unmount
+    return () => clearTimeout(timeout);
+  }, []);
+
   return (
     <div className="name-container">
-      <div className="name-text">
-        <h1 className="reveal-text">Swathi Velicheti</h1>
-        <p className="role-text">Back End Developer</p> 
+      <div className={`name-text ${revealText ? 'reveal' : ''}`}>
+        <h1>Swathi Velicheti</h1>
+        <p className="role-text">Back End Developer</p>
       </div>
       <div className="social-links">
         <a href="https://github.com/SwathiVelicheti13" target="_blank" rel="noopener noreferrer">
@@ -26,6 +38,7 @@ const Name = () => {
 };
 
 export default Name;
+
 
 
 

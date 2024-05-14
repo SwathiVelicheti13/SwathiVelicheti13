@@ -11,6 +11,22 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  opacity: 0; /* Initially hide the text */
+}
+
+.name-text.reveal {
+  animation: revealText 1s ease forwards; /* Animation for revealing the text */
+}
+
+@keyframes revealText {
+  from {
+    opacity: 0;
+    transform: translateY(20px); /* Adjust the value as needed */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .name-title {
