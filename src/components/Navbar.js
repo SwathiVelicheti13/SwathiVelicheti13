@@ -20,12 +20,12 @@ function Navbar() {
         </NavLink>
       </div>
       
-      {/* Toggle Button for Smaller Screens */}
-      <button className="navbar-toggle" onClick={toggleNavbar}>
-        ☰
-      </button>
+      {!isNavbarOpen && (
+        <button className="navbar-toggle" onClick={toggleNavbar}>
+          ☰
+        </button>
+      )}
       
-      {/* Conditional class for showing/hiding navbar-right */}
       <div className={`navbar-right ${isNavbarOpen ? 'open' : ''}`}>
         <NavLink exact to="/" className="nav-item" activeClassName="active">
           Home
