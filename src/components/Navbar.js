@@ -11,6 +11,10 @@ function Navbar() {
     setIsNavbarOpen(!isNavbarOpen);
   };
 
+  const closeNavbar = () => {
+    setIsNavbarOpen(false);
+  };
+
   return (
     <nav className="navbar">
       <div className="navbar-left">
@@ -27,13 +31,13 @@ function Navbar() {
       )}
       
       <div className={`navbar-right ${isNavbarOpen ? 'open' : ''}`}>
-        <NavLink exact to="/" className="nav-item" activeClassName="active">
+        <NavLink exact to="/" className="nav-item" activeClassName="active" onClick={closeNavbar}>
           Home
         </NavLink>
-        <NavLink to="/projects" className="nav-item" activeClassName="active">
+        <NavLink to="/projects" className="nav-item" activeClassName="active" onClick={closeNavbar}>
           Projects
         </NavLink>
-        <NavLink to="/works" className="nav-item" activeClassName="active">
+        <NavLink to="/works" className="nav-item" activeClassName="active" onClick={closeNavbar}>
           Work-Experience
         </NavLink>
       </div>
