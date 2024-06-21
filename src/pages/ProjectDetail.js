@@ -63,7 +63,7 @@ const ProjectDetail = () => {
           <div className="project-image">
             <img
               src={main_image}
-              alt={`${project.project_name} Image`}
+              alt={`${project.project_name}`}
               className="square-image"
             />
           </div>
