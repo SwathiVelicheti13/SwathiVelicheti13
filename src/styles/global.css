@@ -88,3 +88,27 @@ body {
 
 
 
+
+@media only screen and (max-width: 768px) {
+   
+    .app-container {
+        padding: 10px;
+    }
+
+    .hero {
+        height: 150px;
+    }
+
+    .page {
+        margin-right: 7.5%;
+        margin-left: 7.5%;
+    }
+
+    .tag {
+        font-size: smaller;
+        padding: 5px 10px;
+    }
+}
+
+
+

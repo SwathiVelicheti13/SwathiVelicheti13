@@ -12,6 +12,15 @@ const ProjectDetail = () => {
     return <div>Project not found</div>;
   }
 
+  let main_image;
+
+  try {
+    main_image = require(`../${project.main_image}`);
+   } catch (error) {
+    console.log("Image not found:",project.main_image,error)
+    main_image='';
+  }
+
   return (
     <div className="project-detail">
       <div className="project-card">
@@ -53,8 +62,8 @@ const ProjectDetail = () => {
 
           <div className="project-image">
             <img
-              src={project.main_image}
-              alt={`${project.project_name} image`}
+              src={main_image}
+              alt={`${project.project_name} Image`}
               className="square-image"
             />
           </div>

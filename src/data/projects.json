@@ -25,7 +25,7 @@
             "color": "#292929"
           }
         ],
-        "main_image": "assets/project/movie.jpg",
+        "main_image": "assets/project/main_movie.jpg",
         "features": [
           "<strong>Dynamic Search Capabilities:</strong> Users can search for movies, TV shows, and actors using flexible search options, allowing for quick and easy discovery of entertainment content.",
           "<strong>Secure User Authentication:</strong> Integrated JSON Web Tokens (JWT) for secure user authentication and authorization, ensuring safe and protected user sessions.",
@@ -51,7 +51,7 @@
             "color": "#292929"
           }
         ],
-        "main_image": "assets/project/calorie_track2.png",
+        "main_image": "assets/project/calorie_track_2.png",
         "features": [
           "<strong>User Authentication & Personalized Registration:</strong> Users can create accounts with secure authentication, allowing for a personalized experience based on user-specific data such as age, height, weight, and gender. This data is used to calculate ideal BMI and calorie intake.",
           "<strong>Meal Journaling with Real-Time Calorie Calculation:</strong> The app allows users to journal their meals by adding food items to a list, with real-time calorie calculation to track dietary intake throughout the day.",
