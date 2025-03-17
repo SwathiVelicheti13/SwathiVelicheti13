@@ -12,7 +12,7 @@ const AboutMe = () => {
                 </div>
 
                 <div className="section-content">
-                    I'm a full-stack developer with a strong focus on backend technologies. I excel in building scalable web applications using frameworks like Django and have a solid command of JavaScript for front-end development, along with extensive experience in Python. My experience with SQL databases ensures robust data management and seamless integration between different components of a project.
+                    I'm a Back-End Developer with a strong focus on backend technologies. I excel in building scalable web applications using frameworks like Django and have a solid command of JavaScript for front-end development, along with extensive experience in Python. My experience with SQL databases ensures robust data management and seamless integration between different components of a project.
     
                     I enjoy solving technical challenges and constantly seek out opportunities to learn new technologies. 
                     <br /><br />
