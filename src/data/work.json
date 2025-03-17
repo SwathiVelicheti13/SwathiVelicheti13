@@ -2,6 +2,42 @@
     "works": [
         {
             "_id": 0,
+            "company_name": "RJ Systems Inc",
+            "role_name": "Software Engineer",
+            "start_date": "September 2024",
+            "end_date": "Present",
+            "achievements": [
+                "Engineered end-to-end RESTful APIs for employee management systems, enabling seamless CRUD operations and robust access control; reduced data retrieval time by 50% while ensuring compliance with security protocols.",
+                "Designed backend logic for automated invoicing systems, integrating time-tracking data and fixed-rate calculations, streamlining invoice generation and ensuring accurate financial records.",
+                "Implemented automated asynchronous background jobs for email and SMS notifications using third-party integrations, improving communication efficiency and system scalability.",
+                "Integrated automated unit tests, improving test coverage by 20% and ensuring software reliability."
+            ],
+            "languages": [
+                "Python"
+            ],
+            "tools": [
+              
+            ],
+            "libraries": [
+                "Django",
+                "Batch Processing",
+                "SQL Databases",
+                "Agile"
+            ],
+            "links": [
+                {
+                    "icon": "university",
+                    "linkname": "company website",
+                    "website_link": "https://rjsystemsinc.com/",
+                    "color": "#868686"
+                }
+            ],
+            "company_logo": "assets/rjsystems.png" 
+
+        },
+
+        {
+            "_id": 1,
             "company_name": "Outcome Logix",
             "role_name": "Software Engineer Intern",
             "start_date": "June 2022",
@@ -39,20 +75,25 @@
         },
 
         {
-            "_id": 1,
+            "_id": 2,
             "company_name": "Infosys Ltd",
-            "role_name": "Full Stack Developer",
-            "start_date": "Aug 2020",
+            "role_name": "Software Engineer(BackEnd)",
+            "start_date": "Feb 2017",
             "end_date": "Jan 2022",
             "achievements": [
-                "Engineered a customer-centric web portal leveraging React.js and Python, resulting in a 42% uptick in user engagement and marked improvements in website performance; exercised full-stack development capabilities in Python, Django REST Framework, and SQL.",
-                "Developed data-rich, interactive dashboards utilizing React and Django REST Framework, facilitating real-time analytics and decision-making.",
-                "Fortified web application security by implementing robust User Authentication, Authorization Encryption, and secure RESTful API endpoints, ensuring the stringent protection of sensitive user data.",
-                "Achieved key KPIs of a 15% team productivity increase and a 90% project success rate through the disciplined implementation of Agile methodologies, leading to consistent, on-time project deliveries.",
-                "Navigated complex challenges in backend-frontend integration and deployment automation while optimizing component performance and secure data communication, employing Python, React.js,SQL Databases."
+                "Developed and maintained scalable RESTful APIs using Python & Django integrating with high-traffic enterprise systems.",
+                "Optimized API performance and system-level architecture by applying data structures & algorithms, reducing response times by 20% and improving system scalability through code refactoring, PostgreSQL query optimization, and caching strategies.",
+                "Implemented robust data validation and error handling, decreasing incorrect claims submissions by 25%, improving accuracy.",
+                "Designed and extended API endpoints to meet evolving business needs, accelerating feature releases by 20%.",
+                "Collaborated with business stakeholders and cross-functional teams, including business analysts, frontend developers, and project managers, to align architecture and API designs with business objectives and user needs, ensuring alignment on project goals.",
+                "Enhanced API security and compliance by implementing OAuth2, JWT, role-based access control (RBAC), and secure data encryption protocols for regulatory compliance in financial systems.",
+                "Led version control and CI/CD pipelines with GitLab, Jenkins,, ensuring seamless deployment, infrastructure automation, and cloud-based architectures across AWS and GCP environments.",
+                "Developed and documented system architecture designs and strategies for cloud-based platforms, ensuring scalability, security, and high availability for enterprise applications.",
+                "Monitored API performance using telemetry tools like Postman, New Relic, and Swagger, identifying and resolving bottlenecks.",
+                "Contributed to debugging and logging frameworks, improving monitoring capabilities and system observability."
             ],
             "languages": [
-                "Python","SQL","Javscript"
+                "Python","SQL","Javscript,RESTAPI's","System Design"
             ],
             "tools": [
               
@@ -60,7 +101,11 @@
             "libraries": [
                 "Django Framework",
                 "MYSQL",
-                "Agile"
+                "CI/CD",
+                "Authentication and Authorization",
+                "GitLab",
+                "Agile",
+                "Postman"
             ],
             "links": [
                 {
@@ -72,43 +117,8 @@
             ],
             "company_logo": "assets/logo-infosys.png" 
 
-        },
-
-        {
-            "_id": 2,
-            "company_name": "Infosys Ltd",
-            "role_name": "BackEndDeveloper",
-            "start_date": "Feb 2017",
-            "end_date": "July 2020",
-            "achievements": [
-                "Engineered and deployed Python modules to extract and load asset data from MySQL databases, delivering a KPI-centric 50% reduction in data processing time and catalyzing effective inter-team collaboration.",
-                "Boosted backend efficiency through Python and Django REST Framework, managing various application-level tasks.",
-                "Achieved a 40% improvement in MySQL query performance via meticulous optimization with Django REST Framework.",
-                "Strengthened code reliability by establishing a multi-layered testing framework, including unit, acceptance, and integration tests.",
-                "Integrated Git and RESTful APIs into the development workflow, fortifying code management and API operations.",
-                "Streamlined CI/CD pipelines through administering critical support for production tools, libraries, and global configurations."
-            ],
-            "languages": [
-                "Python","SQL"
-            ],
-            "tools": [
-              
-            ],
-            "libraries": [
-                "Django Framework",
-                "MYSQL",
-                "Agile"
-            ],
-            "links": [
-                {
-                    "icon": "university",
-                    "linkname": "company website",
-                    "website_link": "https://www.infosys.com/",
-                    "color": "#868686"
-                }
-            ],
-            "company_logo":"assets/logo-infosys.png" 
         }
+
     ]
 }
     
