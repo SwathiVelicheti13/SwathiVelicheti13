@@ -21,7 +21,7 @@ const AboutMe = () => {
                     <br /><br />
                 </div>
                 
-                <Link to="https://raw.githubusercontent.com/swathivelicheti13/swathivelicheti13/main/src/assets/Swathi_Velicheti_Backend_SysDes.pdf" target="_blank">
+                <Link to="https://raw.githubusercontent.com/swathivelicheti13/swathivelicheti13/main/src/assets/Swathi_Velicheti_Backend_Resume.pdf" target="_blank">
                     <div className="button" style={{ float: "None" }}>
                         View Resume
                     </div>
